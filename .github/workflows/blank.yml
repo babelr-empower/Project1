@@ -44,7 +44,7 @@ jobs:
           # The artifact Id of the artifact that you would like to deploy
           # artifact-id: # optional
           # The build number of a workflow run. Only required for a development run. Required for stages Upload and All if no version was provided instead.
-          build-number: $ {{ github.run_number }}
+          build-number: ${{ github.run_number }}
           # Option to enable debug logging. Optional
           # debug: # optional
                 
